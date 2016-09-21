@@ -1,0 +1,8 @@
+[submodule "scrum-1"]
+	path = scrum-1
+	url = https://github.com/scrum-1/2016fallcp_hw
+	branch = gh-pages
+[submodule "scrum-2"]
+	path = scrum-2
+	url = https://github.com/scrum-2/2016fallcp_hw
+	branch = gh-pages
