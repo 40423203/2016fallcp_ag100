@@ -20,7 +20,25 @@
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
 <v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
-<v t="amd.20151216151325.1"><vh>@edit index.html</vh></v>
+<v t="amd.20151216151325.1" a="E"><vh>@clean index.html</vh>
+<v t="amd.20160922224509.1" a="E"><vh>html</vh>
+<v t="amd.20160922224509.2" a="E"><vh>head</vh>
+<v t="amd.20160922224509.3"><vh>title</vh></v>
+<v t="amd.20160922224509.4"><vh>script</vh></v>
+</v>
+<v t="amd.20160922224509.5" a="E"><vh>body</vh>
+<v t="amd.20160922224509.6" a="E"><vh>reveal div</vh>
+<v t="amd.20160922224509.7" a="E"><vh>slides div</vh>
+<v t="amd.20160922224509.8"><vh>首頁</vh></v>
+<v t="amd.20160922224509.14"><vh>Hello</vh></v>
+<v t="amd.20160922224509.17"><vh>向下延伸頁面</vh></v>
+<v t="amd.20160922224509.27"><vh>連結頁面</vh></v>
+<v t="amd.20160922224509.37"><vh>markdown page</vh></v>
+</v>
+</v>
+</v>
+</v>
+</v>
 <v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
 <v t="leo.20151213230957.1"><vh>文章 Date 設定</vh></v>
 <v t="leo.20151213230729.1"><vh>使用 summary plugin</vh></v>
@@ -71,12 +89,176 @@ Author: yen
 &lt;pre class="brush: python;"&gt;
 print("hello")
 &lt;/pre&gt;</t>
+<t tx="amd.20151216151325.1">@language xml
+@tabwidth -4
+@others
+
+</t>
 <t tx="amd.20160106093454.1"></t>
 <t tx="amd.20160106094754.1"></t>
 <t tx="amd.20160106094829.1"></t>
 <t tx="amd.20160106095324.1"></t>
 <t tx="amd.20160727114506.1"></t>
 <t tx="amd.20160921213353.1"></t>
+<t tx="amd.20160922224509.1">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+@others
+&lt;/html&gt;</t>
+<t tx="amd.20160922224509.14">&lt;section&gt;
+    &lt;h2&gt;Hello There&lt;/h2&gt;
+    &lt;p&gt;
+    reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+					</t>
+<t tx="amd.20160922224509.17">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section&gt;
+
+    &lt;section&gt;
+            &lt;h2&gt;Vertical Slides&lt;/h2&gt;
+            &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
+            &lt;p&gt;
+            Use the &lt;em&gt;Space&lt;/em&gt; key to navigate through all slides.
+            &lt;/p&gt;
+            &lt;br&gt;
+            &lt;a href="#" class="navigate-down"&gt;
+            &lt;img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow"&gt;
+            &lt;/a&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+                &lt;h2&gt;Basement Level 1&lt;/h2&gt;
+                &lt;p&gt;Nested slides are useful for adding additional detail underneath a high level horizontal slide.&lt;/p&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+                &lt;h2&gt;Basement Level 2&lt;/h2&gt;
+                &lt;p&gt;That's it, time to go back up.&lt;/p&gt;
+                &lt;br&gt;
+                &lt;a href="#/2"&gt;
+                &lt;img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);"&gt;
+                &lt;/a&gt;
+    &lt;/section&gt;
+    
+&lt;/section&gt;
+
+						</t>
+<t tx="amd.20160922224509.2">&lt;head&gt;
+@others
+&lt;/head&gt;
+
+</t>
+<t tx="amd.20160922224509.27">&lt;section&gt;
+    &lt;h2&gt;Slides&lt;/h2&gt;
+    &lt;p&gt;
+    Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="http://slides.com" target="_blank"&gt;http://slides.com&lt;/a&gt;.
+    &lt;/p&gt;
+&lt;/section&gt;
+
+
+					</t>
+<t tx="amd.20160922224509.3">&lt;meta charset="utf-8"&gt;
+&lt;title&gt;reveal.js – The HTML Presentation Framework&lt;/title&gt;
+
+</t>
+<t tx="amd.20160922224509.37">&lt;section data-markdown&gt;
+        &lt;script type="text/template"&gt;
+                ## Markdown support
+        
+                Write content using inline or external Markdown.
+                Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+        
+                ```
+                &lt;section data-markdown&gt;
+                  ## Markdown support
+        
+                  Write content using inline or external Markdown.
+                  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+                &lt;/section&gt;
+                ```
+        &lt;/script&gt;
+&lt;/section&gt;
+
+						</t>
+<t tx="amd.20160922224509.4">&lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+&lt;meta name="author" content="Hakim El Hattab"&gt;
+
+&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+&lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+
+&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+
+&lt;!-- Theme used for syntax highlighting of code --&gt;
+&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+&lt;!-- Printing and PDF exports --&gt;
+&lt;script&gt;
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+&lt;/script&gt;
+
+&lt;!--[if lt IE 9]&gt;
+&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+	</t>
+<t tx="amd.20160922224509.5">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="amd.20160922224509.6">&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+
+</t>
+<t tx="amd.20160922224509.7">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+        @others
+        &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"&gt;&lt;/script&gt;
+        &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"&gt;&lt;/script&gt;
+        &lt;script&gt;
+                // More info https://github.com/hakimel/reveal.js#configuration
+                Reveal.initialize({
+                    controls: true,
+                    progress: true,
+                    history: true,
+                    center: true,
+        
+                    transition: 'slide', // none/fade/slide/convex/concave/zoom
+        
+                    // More info https://github.com/hakimel/reveal.js#dependencies
+                    dependencies: [
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true }
+                    ]
+                });
+        &lt;/script&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="amd.20160922224509.8">&lt;section&gt;
+    &lt;h1&gt;Scrum-1 學員的課程簡報&lt;/h1&gt;
+    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+    &lt;p&gt;
+        &lt;small&gt;
+        Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; /
+        &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+        &lt;/small&gt;
+    &lt;/p&gt;
+    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+&lt;/section&gt;
+	</t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
